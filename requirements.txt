@@ -9,3 +9,4 @@ django-private-storage
 django-core
 numpy
 gunicorn
+requests
