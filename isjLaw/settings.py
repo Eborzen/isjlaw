@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-jfo5qlm^*p_wfauz-2%%=uxpza#5-q)n#!*-2^l-ow7nyfnqxt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['isjlaw.onrender.com', 'onrender.com']
 
 
 # Application definition
@@ -136,10 +136,3 @@ STATIC_ROOT = './static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://appname.herokuapp.com',
-    'http://localhost:8100',
-    'http://localhost:8000',
-    'http://localhost:4200',
-    'https://isjlaw.onrender.com'
-]
